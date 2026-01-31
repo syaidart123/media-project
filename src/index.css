@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap');
+
+@import "tailwindcss";
+
+
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+@layer base {
+:root {
+    --orange-brand: #FF8C00;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+}
+
+@layer utilities {
+.bg-orange-brand {
+    background-color: var(--orange-brand);
+}
+
+.text-orange-brand {
+    color: var(--orange-brand);
+}
+
+.border-orange-brand {
+    border-color: var(--orange-brand);
+}
+
+.shadow-orange-brand\/30 {
+    box-shadow: 0 10px 40px rgba(255, 140, 0, 0.3);
+}
+}
