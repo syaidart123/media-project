@@ -4,6 +4,7 @@ import "./index.css";
 import PageNexus from "./PageNexus.tsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageSoma from "./PageSoma.tsx";
+import PageServiceWeightLoss from "./PageServiceWeightLoss.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -11,6 +12,7 @@ createRoot(document.getElementById("root")!).render(
       <Routes>
         <Route path="/" element={<PageSoma />} />
         <Route path="/nexus" element={<PageNexus />} />
+        <Route path="/weight-loss" element={<PageServiceWeightLoss />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
