@@ -73,3 +73,12 @@ export default defineConfig([
 ```
 
 https://www.nexus-clinic.com/wp-content/uploads/2023/03/logo_nexus1-1.png
+
+<!-- DR.Soma Page -->
+
+http://localhost:5173
+
+<!-- nexus page -->
+
+http://localhost:5173/weight-loss
+http://localhost:5173/nexus

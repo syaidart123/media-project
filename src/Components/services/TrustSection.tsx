@@ -31,7 +31,10 @@ const trustItems = [
 
 const TrustSection = () => {
   return (
-    <section className="py-20 lg:py-28 bg-linear-to-br from-[#2A554E] via-[#1e3d38] to-[#2A554E] relative overflow-hidden">
+    <section
+      id="trust"
+      className="py-20 lg:py-28 bg-linear-to-br from-[#2A554E] via-[#1e3d38] to-[#2A554E] relative overflow-hidden"
+    >
       {/* Animated Background */}
       <div className="absolute inset-0">
         {[...Array(3)].map((_, i) => (

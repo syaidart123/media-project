@@ -30,7 +30,10 @@ const programs = [
 
 const Programs = () => {
   return (
-    <section className="py-20 lg:py-28 bg-white relative overflow-hidden">
+    <section
+      id="programs"
+      className="py-20 lg:py-28 bg-white relative overflow-hidden"
+    >
       {/* Background Decoration */}
       <div className="absolute top-0 left-0 w-1/2 h-full bg-linear-to-r from-[#FDF8F2] to-transparent" />
 

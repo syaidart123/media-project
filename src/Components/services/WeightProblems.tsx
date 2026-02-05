@@ -31,7 +31,10 @@ const problems = [
 
 const WeightProblems = () => {
   return (
-    <section className="py-20 lg:py-28 bg-[#FDF8F2] relative overflow-hidden">
+    <section
+      id="problems"
+      className="py-20 lg:py-28 bg-[#FDF8F2] relative overflow-hidden"
+    >
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}

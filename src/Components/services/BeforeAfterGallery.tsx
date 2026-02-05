@@ -36,7 +36,10 @@ const BeforeAfterGallery = () => {
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-[#2A554E] relative overflow-hidden">
+    <section
+      id="results"
+      className="py-20 lg:py-28 bg-[#2A554E] relative overflow-hidden"
+    >
       {/* Decorative */}
       <motion.div
         className="absolute top-0 left-1/2 -translate-x-1/2 w-200 h-200 bg-[#C5A47E]/5 rounded-full blur-3xl"

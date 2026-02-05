@@ -3,7 +3,10 @@ import { staggerContainer, fadeInUp } from "../../lib/animations";
 
 const Reviews = () => {
   return (
-    <section className="py-20 lg:py-28 bg-white relative overflow-hidden">
+    <section
+      id="reviews"
+      className="py-20 lg:py-28 bg-white relative overflow-hidden"
+    >
       {/* Background Decoration */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-linear-to-l from-[#FDF8F2] to-transparent" />
 

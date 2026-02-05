@@ -29,7 +29,7 @@ const ServicesFAQ = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(0);
 
   return (
-    <section className="py-20 lg:py-28 bg-[#FDF8F2]">
+    <section id="faq" className="py-20 lg:py-28 bg-[#FDF8F2]">
       <div className="max-w-4xl mx-auto px-6">
         <motion.div
           initial="hidden"

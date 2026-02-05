@@ -2,7 +2,10 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2A554E] pt-16 lg:pt-24 pb-8 relative overflow-hidden">
+    <footer
+      id="footer"
+      className="bg-[#2A554E] pt-16 lg:pt-24 pb-8 relative overflow-hidden"
+    >
       {/* Decorative Element */}
       <motion.div
         className="absolute top-0 right-0 w-72 lg:w-96 h-72 lg:h-96 bg-[#C5A47E]/10 rounded-full blur-3xl"

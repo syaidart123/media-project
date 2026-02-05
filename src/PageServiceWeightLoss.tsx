@@ -1,4 +1,3 @@
-import Header from "./Components/Nexus/Header";
 import WhoWeHelp from "./Components/services/WhoWeHelp";
 import BeforeAfterGallery from "./Components/services/BeforeAfterGallery";
 import WeightProblems from "./Components/services/WeightProblems";
@@ -9,11 +8,12 @@ import Reviews from "./Components/services/Reviews";
 import Footer from "./Components/Nexus/Footer";
 import TreatmentsList from "./Components/services/TretmentsList";
 import ServicesHero from "./Components/services/ServiceHero";
+import ServicesNavbar from "./Components/services/ServiceNavbar";
 
 const PageServiceWeightLoss = () => {
   return (
     <div className="font-inter">
-      <Header />
+      <ServicesNavbar />
       <ServicesHero />
       <WhoWeHelp />
       <TreatmentsList />

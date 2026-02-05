@@ -7,7 +7,7 @@ const ServicesHero = () => {
   const scale = useTransform(scrollY, [0, 300], [1, 1.1]);
 
   return (
-    <section className="relative min-h-[90vh] overflow-hidden">
+    <section id="hero" className="relative min-h-[90vh] overflow-hidden">
       {/* Background with Parallax */}
       <motion.div className="absolute inset-0 z-0" style={{ scale }}>
         <div className="absolute inset-0 bg-linear-to-br from-[#2A554E] via-[#1e3d38] to-[#2A554E]" />

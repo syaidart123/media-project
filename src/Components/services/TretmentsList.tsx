@@ -42,7 +42,10 @@ const treatments = [
 
 const TreatmentsList = () => {
   return (
-    <section className="py-20 lg:py-28 bg-white relative overflow-hidden">
+    <section
+      id="treatments"
+      className="py-20 lg:py-28 bg-white relative overflow-hidden"
+    >
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-[0.02]">
         <div
