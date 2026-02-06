@@ -48,18 +48,16 @@ const Footer = () => {
             © 2024 Nexus Clinic Kuala Lumpur. All Rights Reserved.
           </p>
           <div className="flex gap-3 lg:gap-4">
-            {["facebook-f", "instagram", "twitter", "linkedin-in"].map(
-              (social) => (
-                <motion.a
-                  key={social}
-                  href="#"
-                  className="w-9 h-9 lg:w-10 lg:h-10 bg-white/10 rounded-full flex items-center justify-center text-white hover:bg-[#C5A47E] transition-colors"
-                  whileHover={{ y: -3 }}
-                >
-                  <i className={`fab fa-${social} text-sm`}></i>
-                </motion.a>
-              ),
-            )}
+            {["facebook-f", "instagram", "twitter"].map((social) => (
+              <motion.a
+                key={social}
+                href="#"
+                className="w-9 h-9 lg:w-10 lg:h-10 bg-white/10 rounded-full flex items-center justify-center text-white hover:bg-[#C5A47E] transition-colors"
+                whileHover={{ y: -3 }}
+              >
+                <i className={`fab fa-${social} text-sm`}></i>
+              </motion.a>
+            ))}
           </div>
         </div>
       </div>
