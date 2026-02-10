@@ -6,7 +6,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageSoma from "./PageSoma.tsx";
 import PageServiceWeightLoss from "./PageServiceWeightLoss.tsx";
 import { ClassyNexus } from "./ClassyNexus.tsx";
-import NexusClinicLanding from "./PageNexusEn.tsx";
 import NexusClinicEn from "./NexusHomePage.tsx";
 
 createRoot(document.getElementById("root")!).render(
@@ -17,7 +16,6 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/nexus" element={<PageNexus />} />
         <Route path="/nexus/weight-loss" element={<PageServiceWeightLoss />} />
         <Route path="/nexus/face-treatments" element={<ClassyNexus />} />
-        <Route path="/nexus/landing" element={<NexusClinicLanding />} />
         <Route path="/nexus/en" element={<NexusClinicEn />} />
       </Routes>
     </BrowserRouter>
