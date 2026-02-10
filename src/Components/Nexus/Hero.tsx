@@ -2,10 +2,6 @@ import { motion } from "framer-motion";
 import { staggerContainer, fadeInUp } from "../../lib/animations";
 
 const Hero = () => {
-  // const { scrollY } = useScroll();
-  // const y = useTransform(scrollY, [0, 500], [0, 150]);
-  // const opacity = useTransform(scrollY, [0, 300], [1, 0]);
-
   return (
     <section className="min-h-screen relative overflow-hidden bg-linear-to-br from-[#FDF8F2] via-white to-[#FDF8F2]">
       {/* Decorative Elements */}
@@ -27,7 +23,6 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
             variants={staggerContainer}
-            // style={{ opacity }}
           >
             <motion.div
               variants={fadeInUp}
